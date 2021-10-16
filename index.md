@@ -1,2 +1,0 @@
-# bodryakov.github.io
-===============
