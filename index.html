@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Hello, AMPs</title>
-  <link rel="canonical" href="https://amp.dev/ru/documentation/guides-and-tutorials/start/create/basic_markup/">
+  <link rel="canonical" href="index.html">
   <meta name="viewport" content="width=device-width">
   <script type="application/ld+json">
     {
@@ -109,10 +109,29 @@
   <hr>
 
   <amp-img
-    src="2.jpg"
-    srcset="2.jpg 640w,
-            2.jpg 320w"
+    media="(min-width: 650px)"
+    src="1.jpg"
+    width=466
+    height=355
+    layout="responsive" >
+</amp-img>
 
+<amp-img
+    media="(max-width: 649px)"
+    src="2.jpg"
+    width=527
+    height=193
+    layout="responsive" >
+</amp-img>
+
+<hr>  <hr>
+
+
+  <amp-img
+    src="2.jpg"
+
+    width="800"
+    height="600"
     layout="responsive"
     alt="an image">
 </amp-img>
